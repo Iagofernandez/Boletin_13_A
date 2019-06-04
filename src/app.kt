@@ -1,0 +1,15 @@
+fun main(){
+    val obx= Seleccion("Iago","Fernandez", 1, 2)
+    val obxXogador= Xogador("Iago","Fernandez",1, 28,3,"Defensa")
+    val obxEntrenador = Entrenador("Iago", "Fernandez", 3, 27, "Esque")
+    val obxMaxasista= Masajista("iago", "Fernandez", 4 , 30 , 1, "Fisio ")
+    obx.concentrarse()
+    obx.viaxar()
+    System.out.println(obx.toString())
+    obxXogador.viaxar()
+    System.out.println(obxXogador.toString())
+    obxEntrenador.viaxar()
+    System.out.println(obxEntrenador.toString())
+    obxMaxasista.viaxar()
+    System.out.println(obxMaxasista.toString())
+}
